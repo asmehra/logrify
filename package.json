@@ -1,0 +1,32 @@
+{
+  "name": "logrify",
+  "version": "1.0.0",
+  "description": "A library to print colorful logs.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmehra/logrify.git"
+  },
+  "keywords": [
+    "console log",
+    "colorful log",
+    "logger",
+    "logrify",
+    "logs"
+  ],
+  "author": "Aman Mehra <amansingh.webdeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asmehra/logrify/issues"
+  },
+  "homepage": "https://github.com/asmehra/logrify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
